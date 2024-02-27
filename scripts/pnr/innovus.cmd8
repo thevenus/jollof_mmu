@@ -1,0 +1,268 @@
+#######################################################
+#                                                     
+#  Innovus Command Logging File                     
+#  Created on Fri Feb 23 15:30:38 2024                
+#                                                     
+#######################################################
+
+#@(#)CDS: Innovus v16.13-s045_1 (64bit) 10/03/2016 04:28 (Linux 2.6.18-194.el5)
+#@(#)CDS: NanoRoute 16.13-s045_1 NR160923-1039/16_13-UB (database version 2.30, 351.6.1) {superthreading v1.30}
+#@(#)CDS: AAE 16.13-s013 (64bit) 10/03/2016 (Linux 2.6.18-194.el5)
+#@(#)CDS: CTE 16.13-s013_1 () Sep 28 2016 05:49:12 ( )
+#@(#)CDS: SYNTECH 16.13-s008_1 () Sep 15 2016 11:59:01 ( )
+#@(#)CDS: CPE v16.13-s039
+#@(#)CDS: IQRC/TQRC 15.2.5-s542 (64bit) Thu Aug 25 18:41:43 PDT 2016 (Linux 2.6.18-194.el5)
+
+set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+suppressMessage ENCEXT-2799
+getDrawView
+loadWorkspace -name Physical
+win
+encMessage warning 0
+encMessage debug 0
+encMessage info 0
+restoreDesign /h/dc/o/si3116uw-s/icp1matrix/PnR/jollof_top.dat jollof_top
+setDrawView fplan
+encMessage warning 1
+encMessage debug 0
+encMessage info 1
+selectInst FILLER_impl12_32072
+deselectAll
+selectInst FILLER_impl12_32071
+deselectAll
+selectInst FILLER_impl12_32041
+deselectAll
+selectInst FILLER_impl12_32048
+deselectAll
+selectInst FILLER_impl12_32045
+deselectAll
+selectInst FILLER_impl12_32050
+pan 401.780 18.215
+pan -17.164 74.962
+deselectAll
+selectObject Module SRAM_wrapper_inst
+deselectAll
+selectObject Module SRAM_wrapper_inst
+deselectAll
+selectObject Module SRAM_wrapper_inst
+setDrawView place
+pan 44.509 3.709
+setDrawView fplan
+setDrawView place
+pan -2.060 11.539
+pan 1.711 -12.549
+fit
+pan 19.684 20.080
+fit
+getCTSMode -engine -quiet
+getCTSMode -engine -quiet
+getCTSMode -engine -quiet
+getCTSMode -engine -quiet
+getCTSMode -engine -quiet
+getCTSMode -engine -quiet
+getCTSMode -engine -quiet
+getCTSMode -engine -quiet
+getCTSMode -engine -quiet
+getCTSMode -engine -quiet
+getCTSMode -engine -quiet
+getCTSMode -engine -quiet
+getCTSMode -engine -quiet
+getCTSMode -engine -quiet
+getCTSMode -engine -quiet
+getCTSMode -engine -quiet
+getCTSMode -engine -quiet
+getCTSMode -engine -quiet
+getCTSMode -engine -quiet
+getCTSMode -engine -quiet
+getCTSMode -engine -quiet
+getCTSMode -engine -quiet
+setOptMode -fixCap false -fixTran false -fixFanoutLoad true
+optDesign -postRoute -drv
+setOptMode -fixCap true -fixTran true -fixFanoutLoad true
+optDesign -preCTS -drv
+selectWire 321.7850 208.3400 321.8850 232.2600 2 Controller_inst/FE_PHN98_in1_reg_63
+deselectAll
+selectWire 333.9850 192.7400 334.0850 284.6600 2 {Controller_inst/in4_reg[53]}
+deselectAll
+selectWire 332.6500 237.4500 333.5500 237.5500 3 {Controller_inst/in3_reg[56]}
+deselectAll
+selectWire 589.3950 326.3000 589.4950 374.4400 2 {dataROM[3]}
+deselectAll
+selectInst FILLER_impl12_31589
+pan 26.253 -56.500
+setNanoRouteMode -quiet -routeTopRoutingLayer default
+setNanoRouteMode -quiet -routeBottomRoutingLayer default
+setNanoRouteMode -quiet -drouteEndIteration default
+setNanoRouteMode -quiet -routeWithTimingDriven false
+setNanoRouteMode -quiet -routeWithSiDriven false
+routeDesign -globalDetail
+deselectAll
+getCTSMode -engine -quiet
+getCTSMode -engine -quiet
+getCTSMode -engine -quiet
+getCTSMode -engine -quiet
+getCTSMode -engine -quiet
+getCTSMode -engine -quiet
+getCTSMode -engine -quiet
+getCTSMode -engine -quiet
+getCTSMode -engine -quiet
+getCTSMode -engine -quiet
+getCTSMode -engine -quiet
+setOptMode -fixCap true -fixTran true -fixFanoutLoad true
+optDesign -postCTS -drv
+getCTSMode -engine -quiet
+getCTSMode -engine -quiet
+getCTSMode -engine -quiet
+getCTSMode -engine -quiet
+getCTSMode -engine -quiet
+getCTSMode -engine -quiet
+getCTSMode -engine -quiet
+getCTSMode -engine -quiet
+getCTSMode -engine -quiet
+getCTSMode -engine -quiet
+getCTSMode -engine -quiet
+setNanoRouteMode -quiet -routeTopRoutingLayer default
+setNanoRouteMode -quiet -routeBottomRoutingLayer default
+setNanoRouteMode -quiet -drouteEndIteration default
+setNanoRouteMode -quiet -routeWithTimingDriven false
+setNanoRouteMode -quiet -routeWithSiDriven false
+routeDesign -globalDetail
+getCTSMode -engine -quiet
+getCTSMode -engine -quiet
+getCTSMode -engine -quiet
+getCTSMode -engine -quiet
+getCTSMode -engine -quiet
+getCTSMode -engine -quiet
+getCTSMode -engine -quiet
+getCTSMode -engine -quiet
+getCTSMode -engine -quiet
+getCTSMode -engine -quiet
+getCTSMode -engine -quiet
+getCTSMode -engine -quiet
+getCTSMode -engine -quiet
+getCTSMode -engine -quiet
+getCTSMode -engine -quiet
+getCTSMode -engine -quiet
+getCTSMode -engine -quiet
+getCTSMode -engine -quiet
+getCTSMode -engine -quiet
+getCTSMode -engine -quiet
+getCTSMode -engine -quiet
+getCTSMode -engine -quiet
+getCTSMode -engine -quiet
+getCTSMode -engine -quiet
+getCTSMode -engine -quiet
+getCTSMode -engine -quiet
+getCTSMode -engine -quiet
+getCTSMode -engine -quiet
+getCTSMode -engine -quiet
+getCTSMode -engine -quiet
+getCTSMode -engine -quiet
+getCTSMode -engine -quiet
+getCTSMode -engine -quiet
+setOptMode -fixCap true -fixTran true -fixFanoutLoad true
+optDesign -postRoute
+setOptMode -fixCap true -fixTran true -fixFanoutLoad true
+optDesign -postRoute -hold
+setOptMode -fixCap true -fixTran true -fixFanoutLoad true
+optDesign -postRoute -hold
+setOptMode -fixCap true -fixTran true -fixFanoutLoad true
+optDesign -postRoute -hold
+setOptMode -fixCap false -fixTran false -fixFanoutLoad false
+optDesign -postRoute -incr
+optDesign -postRoute -hold -incr
+setOptMode -fixCap false -fixTran false -fixFanoutLoad false
+optDesign -postRoute -hold -incr
+setOptMode -fixCap false -fixTran false -fixFanoutLoad false
+optDesign -postRoute -hold -incr
+setOptMode -fixCap false -fixTran false -fixFanoutLoad false
+optDesign -postRoute -hold -incr
+setOptMode -fixCap false -fixTran false -fixFanoutLoad false
+optDesign -preCTS -incr
+setOptMode -fixCap true -fixTran true -fixFanoutLoad true
+optDesign -preCTS
+selectWire 95.5000 193.9400 595.5000 194.6600 1 VDD
+pan 63.343 -50.674
+pan 54.249 50.251
+deselectAll
+selectInst FILLER_impl12_18662
+deselectAll
+selectWire 95.5000 282.3400 595.5000 283.0600 1 VDD
+deselectAll
+selectInst FILLER_impl12_19037
+deselectAll
+selectInst FILLER_impl12_17941
+deselectAll
+selectInst FILLER_impl12_12284
+deselectAll
+selectInst FILLER_impl12_12286
+deselectAll
+selectWire 159.8500 229.0500 308.5500 229.1500 3 CTS_19
+pan -40.314 25.532
+pan -2.687 14.110
+setOptMode -fixCap true -fixTran true -fixFanoutLoad true
+optDesign -postCTS
+optDesign -postCTS -hold
+deselectAll
+pan -217.021 45.688
+setNanoRouteMode -quiet -routeTopRoutingLayer default
+setNanoRouteMode -quiet -routeBottomRoutingLayer default
+setNanoRouteMode -quiet -drouteEndIteration default
+setNanoRouteMode -quiet -routeWithTimingDriven false
+setNanoRouteMode -quiet -routeWithSiDriven false
+routeDesign -globalDetail
+setOptMode -fixCap true -fixTran true -fixFanoutLoad true
+optDesign -postRoute
+optDesign -postRoute -hold
+setOptMode -fixCap true -fixTran true -fixFanoutLoad true
+optDesign -postRoute
+optDesign -postRoute -hold
+fit
+pan -184.821 3.097
+getCTSMode -engine -quiet
+getCTSMode -engine -quiet
+getCTSMode -engine -quiet
+getCTSMode -engine -quiet
+getCTSMode -engine -quiet
+getCTSMode -engine -quiet
+getCTSMode -engine -quiet
+getCTSMode -engine -quiet
+getCTSMode -engine -quiet
+getCTSMode -engine -quiet
+getCTSMode -engine -quiet
+getCTSMode -engine -quiet
+getCTSMode -engine -quiet
+getCTSMode -engine -quiet
+getCTSMode -engine -quiet
+getCTSMode -engine -quiet
+getCTSMode -engine -quiet
+getCTSMode -engine -quiet
+getCTSMode -engine -quiet
+getCTSMode -engine -quiet
+getCTSMode -engine -quiet
+getCTSMode -engine -quiet
+all_hold_analysis_views 
+all_setup_analysis_views 
+write_sdf -version 2.1 -interconn nooutport jollof_top.sdf
+saveNetlist PnR/jollof_top.v
+selectInst FILLER_impl12_23843
+deselectAll
+selectWire 95.5000 305.7400 595.5000 306.4600 1 GND
+deselectAll
+selectInst FILLER_impl12_33699
+deselectAll
+selectInst FILLER_impl12_33705
+deselectAll
+selectInst FILLER_impl12_33712
+deselectAll
+pan -110.139 13.122
+pan -190.808 14.198
+pan -123.476 0.216
+pan -24.326 15.358
+pan 98.968 0.275
+pan 316.934 40.389
+pan 43.275 -3.297
+pan 17.113 9.698
+pan 51.909 0.000
+pan -43.970 25.126
+saveDesign jollof_top

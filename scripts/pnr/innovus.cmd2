@@ -1,0 +1,307 @@
+#######################################################
+#                                                     
+#  Innovus Command Logging File                     
+#  Created on Tue Feb 20 09:16:59 2024                
+#                                                     
+#######################################################
+
+#@(#)CDS: Innovus v16.13-s045_1 (64bit) 10/03/2016 04:28 (Linux 2.6.18-194.el5)
+#@(#)CDS: NanoRoute 16.13-s045_1 NR160923-1039/16_13-UB (database version 2.30, 351.6.1) {superthreading v1.30}
+#@(#)CDS: AAE 16.13-s013 (64bit) 10/03/2016 (Linux 2.6.18-194.el5)
+#@(#)CDS: CTE 16.13-s013_1 () Sep 28 2016 05:49:12 ( )
+#@(#)CDS: SYNTECH 16.13-s008_1 () Sep 15 2016 11:59:01 ( )
+#@(#)CDS: CPE v16.13-s039
+#@(#)CDS: IQRC/TQRC 15.2.5-s542 (64bit) Thu Aug 25 18:41:43 PDT 2016 (Linux 2.6.18-194.el5)
+
+set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+suppressMessage ENCEXT-2799
+getDrawView
+loadWorkspace -name Physical
+win
+set ::TimeLib::tsgMarkCellLatchConstructFlag 1
+set defHierChar /
+set distributed_client_message_echo 1
+set distributed_mmmc_disable_reports_auto_redirection 0
+set init_gnd_net GND
+set init_io_file PnR/jollof.io
+set init_lef_file {/usr/local-eit/cad2/cmpstm/stm065v536/EncounterTechnoKit_cmos065_7m4x0y2z_AP@5.3.1/TECH/cmos065_7m4x0y2z_AP_Worst.lef /usr/local-eit/cad2/cmpstm/stm065v536/CORE65LPLVT_5.1/CADENCE/LEF/CORE65LPLVT_soc.lef /usr/local-eit/cad2/cmpstm/stm065v536/CLOCK65LPLVT_3.1/CADENCE/LEF/CLOCK65LPLVT_soc.lef /usr/local-eit/cad2/cmpstm/stm065v536/PRHS65_7.0.a/CADENCE/LEF/PRHS65_soc.lef /usr/local-eit/cad2/cmpstm/stm065v536/IO65LPHVT_SF_1V8_50A_7M4X0Y2Z_7.0/CADENCE/LEF/IO65LPHVT_SF_1V8_50A_7M4X0Y2Z_soc.lef /usr/local-eit/cad2/cmpstm/stm065v536/IO65LP_SF_BASIC_50A_ST_7M4X0Y2Z_7.2/CADENCE/LEF/IO65LP_SF_BASIC_50A_ST_7M4X0Y2Z_soc.lef /usr/local-eit/cad2/cmpstm/oldmems/mem2011/SPHD110420-48158@1.0/CADENCE/LEF/SPHD110420_soc.lef /usr/local-eit/cad2/cmpstm/dicp18/lu_pads_65nm/PADS_Jun2013.lef}
+set init_mmmc_file PnR/jollof.view
+set init_oa_search_lib {}
+set init_pwr_net VDD
+set init_top_cell jollof_top
+set init_verilog outputs/jollof_top.v
+set latch_time_borrow_mode max_borrow
+set pegDefaultResScaleFactor 1
+set pegDetailResScaleFactor 1
+set report_inactive_arcs_format {from to when arc_type sense reason}
+set tso_post_client_restore_command {update_timing ; write_eco_opt_db ;}
+init_design
+gui_select -rect {313.740 302.940 551.340 370.980}
+pan 381.240 129.600
+fit
+pan -18.755 11.416
+selectInst {InPads[7].InPad}
+gui_select -rect {92.920 384.840 107.597 376.686}
+selectInst {OutPads[3].OutPad}
+deselectAll
+selectInst InPad_5
+deselectAll
+selectInst InPad_6
+deselectAll
+selectInst InPad_7
+deselectAll
+selectInst {OutPads[3].OutPad}
+pan -25.645 -56.838
+pan 0.816 26.910
+clearGlobalNets
+globalNetConnect VDD -type pgpin -pin vdd -inst *
+globalNetConnect VDD -type tiehi -inst *
+globalNetConnect GND -type pgpin -pin gnd -inst *
+globalNetConnect GND -type tielo -inst *
+deselectAll
+selectInst PVDD2
+deselectAll
+selectInst PGND1
+deselectAll
+selectInst PVDD1
+deselectAll
+selectInst PVDD2
+deselectAll
+selectInst InPad_5
+deselectAll
+selectInst {InPads[0].InPad}
+deselectAll
+selectInst InPad_6
+deselectAll
+selectInst {InPads[4].InPad}
+deselectAll
+selectInst InPad_5
+deselectAll
+selectInst {InPads[0].InPad}
+deselectAll
+selectInst InPad_6
+deselectAll
+selectInst {InPads[4].InPad}
+deselectAll
+selectInst {InPads[2].InPad}
+deselectAll
+selectInst InPad_7
+deselectAll
+selectInst PcornerLL
+deselectAll
+selectInst {InPads[2].InPad}
+deselectAll
+selectInst PcornerLL
+deselectAll
+selectInst {InPads[2].InPad}
+deselectAll
+selectInst InPad_6
+deselectAll
+selectInst {InPads[4].InPad}
+pan 42.567 -0.851
+deselectAll
+selectInst {OutPads[6].OutPad}
+deselectAll
+selectInst {InPads[6].InPad}
+deselectAll
+selectInst {OutPads[2].OutPad}
+deselectAll
+selectInst OutPad_6
+deselectAll
+selectInst OutPad_5
+pan 68.959 101.735
+pan -2.128 -44.271
+deselectAll
+selectInst {OutPads[7].OutPad}
+deselectAll
+gui_select -rect {233.062 434.132 145.727 460.471}
+pan -77.631 239.825
+pan 9.411 18.038
+pan 83.870 -18.022
+selectInst OutPad_3
+deselectAll
+selectInst {OutPads[8].OutPad}
+deselectAll
+selectInst OutPad_2
+deselectAll
+selectInst {InPads[1].InPad}
+deselectAll
+selectInst {InPads[5].InPad}
+deselectAll
+selectInst {InPads[3].InPad}
+deselectAll
+selectInst {OutPads[5].OutPad}
+deselectAll
+selectInst {OutPads[1].OutPad}
+deselectAll
+selectInst validpad
+pan 244.640 -1.631
+deselectAll
+pan 37.416 49.888
+selectInst clkpad
+pan -285.894 348.253
+pan 665.331 -288.178
+deselectAll
+selectInst {InPads[7].InPad}
+deselectAll
+selectInst {OutPads[3].OutPad}
+deselectAll
+selectInst InPad_7
+deselectAll
+selectInst {InPads[2].InPad}
+deselectAll
+selectInst {InPads[4].InPad}
+deselectAll
+selectInst InPad_6
+deselectAll
+selectInst {InPads[4].InPad}
+deselectAll
+selectInst {InPads[2].InPad}
+deselectAll
+selectInst {OutPads[3].OutPad}
+deselectAll
+selectInst {InPads[7].InPad}
+deselectAll
+selectInst OutPad_0
+deselectAll
+selectInst OutPad_1
+deselectAll
+selectInst {OutPads[4].OutPad}
+deselectAll
+selectInst {OutPads[0].OutPad}
+deselectAll
+selectInst OutPad_2
+deselectAll
+selectInst {OutPads[8].OutPad}
+deselectAll
+selectInst OutPad_3
+deselectAll
+selectInst finishpad
+deselectAll
+selectInst rstpad
+deselectAll
+selectInst PVDD2
+setLayerPreference io -isVisible 0
+setLayerPreference io -isVisible 1
+setLayerPreference io -isVisible 0
+setLayerPreference io -isVisible 1
+setLayerPreference io -isVisible 0
+setLayerPreference io -isVisible 1
+setLayerPreference areaIo -isVisible 0
+setLayerPreference areaIo -isVisible 1
+setLayerPreference io -isVisible 0
+setLayerPreference io -isVisible 1
+setLayerPreference phyCell -isVisible 0
+setLayerPreference phyCell -isVisible 1
+setLayerPreference phyCell -isVisible 0
+setLayerPreference phyCell -isVisible 1
+setLayerPreference phyCell -isVisible 0
+setLayerPreference phyCell -isVisible 1
+setLayerPreference phyCell -isVisible 0
+setLayerPreference phyCell -isVisible 1
+setLayerPreference phyCell -isVisible 0
+setLayerPreference phyCell -isVisible 1
+setLayerPreference phyCell -isVisible 0
+setLayerPreference phyCell -isVisible 1
+setLayerPreference phyCell -isVisible 0
+setLayerPreference phyCell -isVisible 1
+setLayerPreference phyCell -isVisible 0
+setLayerPreference phyCell -isVisible 1
+setLayerPreference phyCell -isVisible 0
+setLayerPreference phyCell -isVisible 1
+setLayerPreference phyCell -isVisible 0
+setLayerPreference phyCell -isVisible 1
+setLayerPreference phyCell -isVisible 0
+setLayerPreference phyCell -isVisible 1
+setLayerPreference phyCell -isVisible 0
+setLayerPreference phyCell -isVisible 1
+setLayerPreference phyCell -isVisible 0
+setLayerPreference phyCell -isVisible 1
+setLayerPreference phyCell -isVisible 0
+setLayerPreference phyCell -isVisible 1
+setLayerPreference phyCell -isVisible 0
+setLayerPreference phyCell -isVisible 1
+setLayerPreference phyCell -isVisible 0
+setLayerPreference phyCell -isVisible 1
+setLayerPreference coverCell -isVisible 0
+setLayerPreference coverCell -isVisible 1
+setLayerPreference stdCell -isVisible 0
+setLayerPreference stdCell -isVisible 1
+setLayerPreference block -isVisible 0
+setLayerPreference block -isVisible 1
+setLayerPreference inst -isVisible 0
+setLayerPreference inst -isVisible 1
+setLayerPreference inst -isVisible 0
+setLayerPreference inst -isVisible 1
+setLayerPreference blackBox -isVisible 0
+setLayerPreference blackBox -isVisible 1
+setLayerPreference areaIo -isVisible 0
+setLayerPreference areaIo -isVisible 1
+setLayerPreference areaIo -isVisible 0
+setLayerPreference areaIo -isVisible 1
+setLayerPreference io -isVisible 0
+setLayerPreference io -isVisible 1
+setLayerPreference phyCell -isVisible 0
+setLayerPreference phyCell -isVisible 1
+setLayerPreference phyCell -isVisible 0
+setLayerPreference phyCell -isVisible 1
+setLayerPreference phyCell -isVisible 0
+setLayerPreference phyCell -isVisible 1
+setLayerPreference layoutObj -isVisible 1
+setLayerPreference layoutObj -isVisible 0
+setLayerPreference pinObj -isVisible 1
+setLayerPreference pinblock -isVisible 1
+setLayerPreference pinstdCell -isVisible 1
+setLayerPreference pinio -isVisible 1
+setLayerPreference piniopin -isVisible 1
+setLayerPreference pinother -isVisible 1
+setLayerPreference pinObj -isVisible 0
+setLayerPreference pinblock -isVisible 0
+setLayerPreference pinstdCell -isVisible 0
+setLayerPreference pinio -isVisible 0
+setLayerPreference piniopin -isVisible 0
+setLayerPreference pinother -isVisible 0
+setLayerPreference pinObj -isVisible 1
+setLayerPreference pinblock -isVisible 1
+setLayerPreference pinstdCell -isVisible 1
+setLayerPreference pinio -isVisible 1
+setLayerPreference piniopin -isVisible 1
+setLayerPreference pinother -isVisible 1
+setLayerPreference pinObj -isVisible 0
+setLayerPreference pinblock -isVisible 0
+setLayerPreference pinstdCell -isVisible 0
+setLayerPreference pinio -isVisible 0
+setLayerPreference piniopin -isVisible 0
+setLayerPreference pinother -isVisible 0
+setLayerPreference pinObj -isVisible 1
+setLayerPreference pinblock -isVisible 1
+setLayerPreference pinstdCell -isVisible 1
+setLayerPreference pinio -isVisible 1
+setLayerPreference piniopin -isVisible 1
+setLayerPreference pinother -isVisible 1
+setLayerPreference pinObj -isVisible 0
+setLayerPreference pinblock -isVisible 0
+setLayerPreference pinstdCell -isVisible 0
+setLayerPreference pinio -isVisible 0
+setLayerPreference piniopin -isVisible 0
+setLayerPreference pinother -isVisible 0
+setLayerPreference pinObj -isVisible 1
+setLayerPreference pinblock -isVisible 1
+setLayerPreference pinstdCell -isVisible 1
+setLayerPreference pinio -isVisible 1
+setLayerPreference piniopin -isVisible 1
+setLayerPreference pinother -isVisible 1
+setLayerPreference pinObj -isVisible 0
+setLayerPreference pinblock -isVisible 0
+setLayerPreference pinstdCell -isVisible 0
+setLayerPreference pinio -isVisible 0
+setLayerPreference piniopin -isVisible 0
+setLayerPreference pinother -isVisible 0
+fit
+pan 52.283 278.921
+pan 73.867 -119.914
+clearGlobalNets
+globalNetConnect VDD -type pgpin -pin vdd -inst *
+globalNetConnect VDD -type tiehi -inst *
+globalNetConnect GND -type pgpin -pin gnd -inst *
+globalNetConnect GND -type tielo -inst *

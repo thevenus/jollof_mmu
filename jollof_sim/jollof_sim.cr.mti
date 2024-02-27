@@ -1,0 +1,234 @@
+/h/dc/o/si3116uw-s/icp1matrix/vhdl/design/rom.vhd {1 {vcom -work work -2002 -explicit -novopt -stats=none /h/dc/o/si3116uw-s/icp1matrix/vhdl/design/rom.vhd
+QuestaSim-64 vcom 10.6_1 Compiler 2017.01 Jan 30 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity rom
+-- Compiling architecture Behavioral of rom
+
+} {} {}} /h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_sram_test.vhd {2 {vcom -work work -2002 -explicit -novopt -stats=none /h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_sram_test.vhd
+QuestaSim-64 vcom 10.6_1 Compiler 2017.01 Jan 30 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity tb_sram_test
+-- Compiling architecture Behavioral of tb_sram_test
+** Warning: /h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_sram_test.vhd(70): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: /h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_sram_test.vhd(71): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: /h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_sram_test.vhd(72): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: /h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_sram_test.vhd(73): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: /h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_sram_test.vhd(73): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: /h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_sram_test.vhd(73): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: /h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_sram_test.vhd(73): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+
+} {} {}} /h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_rom.vhd {2 {vcom -work work -2002 -explicit -novopt -stats=none /h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_rom.vhd
+QuestaSim-64 vcom 10.6_1 Compiler 2017.01 Jan 30 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity tb_rom
+-- Compiling architecture Behavioral of tb_rom
+** Warning: /h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_rom.vhd(53): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: /h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_rom.vhd(54): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: /h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_rom.vhd(55): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: /h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_rom.vhd(56): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: /h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_rom.vhd(57): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: /h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_rom.vhd(58): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: /h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_rom.vhd(59): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: /h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_rom.vhd(60): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: /h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_rom.vhd(61): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: /h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_rom.vhd(62): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: /h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_rom.vhd(63): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: /h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_rom.vhd(64): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: /h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_rom.vhd(65): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: /h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_rom.vhd(66): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: /h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_rom.vhd(67): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+
+} {} {}} /h/dc/o/si3116uw-s/icp1matrix/vhdl/design/sram_wrapper.vhd {1 {vcom -work work -2002 -explicit -novopt -stats=none /h/dc/o/si3116uw-s/icp1matrix/vhdl/design/sram_wrapper.vhd
+QuestaSim-64 vcom 10.6_1 Compiler 2017.01 Jan 30 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity sram_wrapper
+-- Compiling architecture rtl of sram_wrapper
+
+} {} {}} /h/dc/o/si3116uw-s/icp1matrix/vhdl/design/controller.vhd {1 {vcom -work work -2002 -explicit -novopt -stats=none /h/dc/o/si3116uw-s/icp1matrix/vhdl/design/controller.vhd
+QuestaSim-64 vcom 10.6_1 Compiler 2017.01 Jan 30 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity controller
+-- Compiling architecture Behavioral of controller
+
+} {} {}} /h/dc/o/si3116uw-s/icp1matrix/vhdl/design/ram_ctrl.vhd {1 {vcom -work work -2002 -explicit -novopt -stats=none /h/dc/o/si3116uw-s/icp1matrix/vhdl/design/ram_ctrl.vhd
+QuestaSim-64 vcom 10.6_1 Compiler 2017.01 Jan 30 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity ram_ctrl
+-- Compiling architecture Behavioral of ram_ctrl
+
+} {} {}} /h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_jollof_top.vhd {2 {vcom -work work -2002 -explicit -novopt -stats=none /h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_jollof_top.vhd
+QuestaSim-64 vcom 10.6_1 Compiler 2017.01 Jan 30 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_textio
+-- Compiling entity tb_jollof_top
+-- Compiling architecture Behavioral of tb_jollof_top
+** Warning: /h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_jollof_top.vhd(69): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: /h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_jollof_top.vhd(86): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: /h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_jollof_top.vhd(88): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+
+} {} {}} /h/dc/o/si3116uw-s/icp1matrix/PnR/jollof_top.v {2 {vlog -work work -novopt -stats=none /h/dc/o/si3116uw-s/icp1matrix/PnR/jollof_top.v
+QuestaSim-64 vlog 10.6_1 Compiler 2017.01 Jan 30 2017
+-- Compiling module csa_tree_add_326_25_group_768
+-- Compiling module csa_tree_add_327_25_group_766
+-- Compiling module controller
+** Warning: /h/dc/o/si3116uw-s/icp1matrix/PnR/jollof_top.v(1324): (vlog-13233) Design unit "controller" already exists and will be overwritten. Overwriting a VHDL entity with a Verilog module.
+-- Compiling module ram_ctrl
+** Warning: /h/dc/o/si3116uw-s/icp1matrix/PnR/jollof_top.v(11266): (vlog-13233) Design unit "ram_ctrl" already exists and will be overwritten. Overwriting a VHDL entity with a Verilog module.
+-- Compiling module rom
+** Warning: /h/dc/o/si3116uw-s/icp1matrix/PnR/jollof_top.v(14826): (vlog-13233) Design unit "rom" already exists and will be overwritten. Overwriting a VHDL entity with a Verilog module.
+-- Compiling module sram_wrapper
+** Warning: /h/dc/o/si3116uw-s/icp1matrix/PnR/jollof_top.v(14961): (vlog-13233) Design unit "sram_wrapper" already exists and will be overwritten. Overwriting a VHDL entity with a Verilog module.
+-- Compiling module jollof_top
+
+Top level modules:
+	jollof_top
+
+} {} {}} /h/dc/o/si3116uw-s/icp1matrix/vhdl/design/jollof_top_w_LU_PADS.vhd {1 {vcom -work work -2002 -explicit -novopt -stats=none /h/dc/o/si3116uw-s/icp1matrix/vhdl/design/jollof_top_w_LU_PADS.vhd
+QuestaSim-64 vcom 10.6_1 Compiler 2017.01 Jan 30 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity jollof_top
+-- Compiling architecture Behavioral of jollof_top
+
+} {} {}} /h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_sram.vhd {2 {vcom -work work -2002 -explicit -novopt -stats=none /h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_sram.vhd
+QuestaSim-64 vcom 10.6_1 Compiler 2017.01 Jan 30 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity tb_sram
+-- Compiling architecture Behavioral of tb_sram
+** Warning: /h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_sram.vhd(85): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: /h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_sram.vhd(86): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: /h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_sram.vhd(90): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: /h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_sram.vhd(91): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: /h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_sram.vhd(124): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: /h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_sram.vhd(125): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: /h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_sram.vhd(126): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: /h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_sram.vhd(127): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: /h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_sram.vhd(128): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: /h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_sram.vhd(129): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: /h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_sram.vhd(130): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: /h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_sram.vhd(131): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: /h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_sram.vhd(132): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: /h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_sram.vhd(133): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: /h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_sram.vhd(134): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: /h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_sram.vhd(135): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: /h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_sram.vhd(136): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: /h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_sram.vhd(137): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: /h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_sram.vhd(138): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: /h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_sram.vhd(141): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: /h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_sram.vhd(142): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: /h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_sram.vhd(143): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: /h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_sram.vhd(144): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: /h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_sram.vhd(145): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: /h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_sram.vhd(146): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: /h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_sram.vhd(147): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: /h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_sram.vhd(148): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: /h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_sram.vhd(149): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: /h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_sram.vhd(150): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: /h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_sram.vhd(151): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: /h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_sram.vhd(152): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: /h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_sram.vhd(153): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: /h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_sram.vhd(154): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: /h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_sram.vhd(155): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: /h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_sram.vhd(158): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: /h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_sram.vhd(159): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: /h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_sram.vhd(160): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: /h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_sram.vhd(161): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: /h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_sram.vhd(162): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: /h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_sram.vhd(163): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: /h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_sram.vhd(164): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: /h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_sram.vhd(165): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: /h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_sram.vhd(166): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: /h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_sram.vhd(167): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: /h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_sram.vhd(168): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: /h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_sram.vhd(169): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: /h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_sram.vhd(170): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: /h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_sram.vhd(171): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: /h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_sram.vhd(172): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: /h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_sram.vhd(175): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: /h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_sram.vhd(176): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: /h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_sram.vhd(177): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: /h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_sram.vhd(178): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: /h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_sram.vhd(179): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: /h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_sram.vhd(180): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: /h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_sram.vhd(181): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: /h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_sram.vhd(182): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: /h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_sram.vhd(183): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: /h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_sram.vhd(184): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: /h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_sram.vhd(185): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: /h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_sram.vhd(186): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: /h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_sram.vhd(187): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: /h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_sram.vhd(188): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: /h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_sram.vhd(189): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: /h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_sram.vhd(191): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+
+} {} {}} /h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_controller.vhd {2 {vcom -work work -2002 -explicit -novopt -stats=none /h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_controller.vhd
+QuestaSim-64 vcom 10.6_1 Compiler 2017.01 Jan 30 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_textio
+-- Compiling entity tb_controller
+-- Compiling architecture Behavioral of tb_controller
+** Warning: /h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_controller.vhd(75): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: /h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_controller.vhd(100): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: /h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_controller.vhd(101): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: /h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_controller.vhd(101): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+
+} {} {}} /h/dc/o/si3116uw-s/icp1matrix/vhdl/design/SPHD110420.v {1 {vlog -work work -novopt -stats=none /h/dc/o/si3116uw-s/icp1matrix/vhdl/design/SPHD110420.v
+QuestaSim-64 vlog 10.6_1 Compiler 2017.01 Jan 30 2017
+-- Compiling module ST_SPHDL_160x32m8_L_main
+-- Compiling module ST_SPHDL_160x32m8_L_OPschlr
+-- Compiling module ST_SPHDL_160x32m8_L
+-- Compiling module ST_SPHDL_1216x32m16_bL_main
+-- Compiling module ST_SPHDL_1216x32m16_bL_OPschlr
+-- Compiling module ST_SPHDL_1216x32m16_bL
+-- Compiling module ST_SPHDL_160x64m8_L_main
+-- Compiling module ST_SPHDL_160x64m8_L_OPschlr
+-- Compiling module ST_SPHDL_160x64m8_L
+-- Compiling module ST_SPHDL_640x32m16_L_main
+-- Compiling module ST_SPHDL_640x32m16_L_OPschlr
+-- Compiling module ST_SPHDL_640x32m16_L
+-- Compiling module ST_SPHDL_160x64m8_bL_main
+-- Compiling module ST_SPHDL_160x64m8_bL_OPschlr
+-- Compiling module ST_SPHDL_160x64m8_bL
+
+Top level modules:
+	ST_SPHDL_160x32m8_L
+	ST_SPHDL_1216x32m16_bL
+	ST_SPHDL_160x64m8_L
+	ST_SPHDL_640x32m16_L
+	ST_SPHDL_160x64m8_bL
+
+} {} {}} /h/dc/o/si3116uw-s/icp1matrix/lu_pads_65nm/PADS_Jun2013.v {1 {vlog -work work -novopt -stats=none /h/dc/o/si3116uw-s/icp1matrix/lu_pads_65nm/PADS_Jun2013.v
+QuestaSim-64 vlog 10.6_1 Compiler 2017.01 Jan 30 2017
+-- Compiling module CPAD_S_74x50u_IN
+-- Compiling module CPAD_S_74x50u_OUT
+
+Top level modules:
+	CPAD_S_74x50u_IN
+	CPAD_S_74x50u_OUT
+
+} {} {}}

@@ -1,0 +1,776 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/h/dc/o/si3116uw-s/icp1matrix
+vcontroller
+Z0 !s110 1709020845
+!i10b 1
+!s100 jO3>:64?Hh9^OfTbHO[lG2
+IYN^IFfOD]TN`5>zgNG0@a3
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 d/h/dc/o/si3116uw-s/icp1matrix/jollof_sim
+Z3 w1708701559
+Z4 8/h/dc/o/si3116uw-s/icp1matrix/PnR/jollof_top.v
+Z5 F/h/dc/o/si3116uw-s/icp1matrix/PnR/jollof_top.v
+L0 1324
+Z6 OL;L;10.6_1;65
+r1
+!s85 0
+31
+Z7 !s108 1709020845.000000
+Z8 !s107 /h/dc/o/si3116uw-s/icp1matrix/PnR/jollof_top.v|
+Z9 !s90 -reportprogress|300|-work|work|-novopt|-stats=none|/h/dc/o/si3116uw-s/icp1matrix/PnR/jollof_top.v|
+!i113 1
+Z10 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z11 tCvgOpt 0
+vCPAD_S_74x50u_IN
+R0
+!i10b 1
+!s100 HQA5=B3Ve1YGeOJaJho2b3
+IfNhB13nX@m:FIBd5OzXMA1
+R1
+R2
+Z12 w1705919105
+Z13 8/h/dc/o/si3116uw-s/icp1matrix/lu_pads_65nm/PADS_Jun2013.v
+Z14 F/h/dc/o/si3116uw-s/icp1matrix/lu_pads_65nm/PADS_Jun2013.v
+L0 14
+R6
+r1
+!s85 0
+31
+R7
+Z15 !s107 /h/dc/o/si3116uw-s/icp1matrix/lu_pads_65nm/PADS_Jun2013.v|
+Z16 !s90 -reportprogress|300|-work|work|-novopt|-stats=none|/h/dc/o/si3116uw-s/icp1matrix/lu_pads_65nm/PADS_Jun2013.v|
+!i113 1
+R10
+R11
+n@c@p@a@d_@s_74x50u_@i@n
+vCPAD_S_74x50u_OUT
+R0
+!i10b 1
+!s100 iHR3^cK;<BkJoj?`RFzdV0
+I8<XmME;OoK2NL^VNd1;`m1
+R1
+R2
+R12
+R13
+R14
+L0 41
+R6
+r1
+!s85 0
+31
+R7
+R15
+R16
+!i113 1
+R10
+R11
+n@c@p@a@d_@s_74x50u_@o@u@t
+vcsa_tree_add_326_25_group_768
+R0
+!i10b 1
+!s100 KA0Nc_`P`J9gE_hhZMc9a0
+I>mU[zmFHU9OzC;4Y7PzWI1
+R1
+R2
+R3
+R4
+R5
+L0 10
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vcsa_tree_add_326_25_group_832
+Z17 !s110 1707816705
+!i10b 1
+!s100 7NZ8^_Zd]fjJD]hU=SO;_3
+Ij@PE8Ra:_ARAPfKkaH8zC0
+R1
+R2
+Z18 w1707816471
+Z19 8/h/dc/o/si3116uw-s/icp1matrix/outputs/jollof_top.v
+Z20 F/h/dc/o/si3116uw-s/icp1matrix/outputs/jollof_top.v
+L0 7
+R6
+r1
+!s85 0
+31
+Z21 !s108 1707816705.000000
+Z22 !s107 /h/dc/o/si3116uw-s/icp1matrix/outputs/jollof_top.v|
+Z23 !s90 -reportprogress|300|-work|work|-novopt|-stats=none|/h/dc/o/si3116uw-s/icp1matrix/outputs/jollof_top.v|
+!i113 1
+R10
+R11
+vcsa_tree_add_327_25_group_766
+R0
+!i10b 1
+!s100 H>9X8@Pdn`D8BUUZNCYo00
+IhlOl`Q^Y2_i>aNLP>n;i_3
+R1
+R2
+R3
+R4
+R5
+L0 667
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vcsa_tree_add_327_25_group_830
+R17
+!i10b 1
+!s100 kKo0Wj7inFB]?WzB<:NQ<0
+IWn_g=ZdZgfkHnXY<oV39z0
+R1
+R2
+R18
+R19
+R20
+L0 223
+R6
+r1
+!s85 0
+31
+R21
+R22
+R23
+!i113 1
+R10
+R11
+vjollof_top
+R0
+!i10b 1
+!s100 REehcG>FP]bz947VO3EGC1
+INA==k<UGi8_Sa^no6QiQD1
+R1
+R2
+R3
+R4
+R5
+L0 15065
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vram_ctrl
+R0
+!i10b 1
+!s100 NR]l`B]QR2oXO1ISVdFYB0
+I[iYf?I`TY5KMz8U^6O:Db0
+R1
+R2
+R3
+R4
+R5
+L0 11266
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vrom
+R0
+!i10b 1
+!s100 8PD2gd1<VQ=34b_G41KKZ2
+Ic4U[:6;CdJN72YZzVGjFj3
+R1
+R2
+R3
+R4
+R5
+L0 14826
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vsram_wrapper
+R0
+!i10b 1
+!s100 fgZI>Y]JdW6nj@R]HGgzB2
+Ibgj50>UKdW884`o>WVeJj1
+R1
+R2
+R3
+R4
+R5
+L0 14961
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vST_SPHDL_1216x32m16_bL
+Z24 !s110 1709020844
+!i10b 1
+!s100 ?BGgX21YNgb?NFoLUjORn0
+Im4JYzPaSYlIMWX0ONTOe90
+R1
+R2
+Z25 w1303303806
+Z26 8/h/dc/o/si3116uw-s/icp1matrix/vhdl/design/SPHD110420.v
+Z27 F/h/dc/o/si3116uw-s/icp1matrix/vhdl/design/SPHD110420.v
+L0 5094
+R6
+r1
+!s85 0
+31
+Z28 !s108 1709020844.000000
+Z29 !s107 /h/dc/o/si3116uw-s/icp1matrix/vhdl/design/SPHD110420.v|
+Z30 !s90 -reportprogress|300|-work|work|-novopt|-stats=none|/h/dc/o/si3116uw-s/icp1matrix/vhdl/design/SPHD110420.v|
+!i113 1
+R10
+R11
+n@s@t_@s@p@h@d@l_1216x32m16_b@l
+vST_SPHDL_1216x32m16_bL_main
+R24
+!i10b 1
+!s100 ;:QFZCj]VmR6RE3bIT[dY0
+IVOklLc<E[@15E8D^UDjnC2
+R1
+R2
+R25
+R26
+R27
+L0 3775
+R6
+r1
+!s85 0
+31
+R28
+R29
+R30
+!i113 1
+R10
+R11
+n@s@t_@s@p@h@d@l_1216x32m16_b@l_main
+vST_SPHDL_1216x32m16_bL_OPschlr
+R24
+!i10b 1
+!s100 ND:86BDUfG0i?d8jfmX8G1
+IU=_RViL[6]2IcO5nOQh]Z2
+R1
+R2
+R25
+R26
+R27
+L0 4909
+R6
+r1
+!s85 0
+31
+R28
+R29
+R30
+!i113 1
+R10
+R11
+n@s@t_@s@p@h@d@l_1216x32m16_b@l_@o@pschlr
+vST_SPHDL_160x32m8_L
+R24
+!i10b 1
+!s100 __C^X12XX<fOU1PTCTJg90
+II<_m5MU6jl[A^KTZ80>Q>3
+R1
+R2
+R25
+R26
+R27
+L0 2058
+R6
+r1
+!s85 0
+31
+R28
+R29
+R30
+!i113 1
+R10
+R11
+n@s@t_@s@p@h@d@l_160x32m8_@l
+vST_SPHDL_160x32m8_L_main
+R24
+!i10b 1
+!s100 E<;IJ]aa[^207N?m1MKFj3
+IUbAoC8iT0V[jzVP];mg<z1
+R1
+R2
+R25
+R26
+R27
+L0 769
+R6
+r1
+!s85 0
+31
+R28
+R29
+R30
+!i113 1
+R10
+R11
+n@s@t_@s@p@h@d@l_160x32m8_@l_main
+vST_SPHDL_160x32m8_L_OPschlr
+R24
+!i10b 1
+!s100 lG4ankhagGHmENTEhRd0R2
+I5GGNcL9b4L93heS@gGEcg0
+R1
+R2
+R25
+R26
+R27
+L0 1873
+R6
+r1
+!s85 0
+31
+R28
+R29
+R30
+!i113 1
+R10
+R11
+n@s@t_@s@p@h@d@l_160x32m8_@l_@o@pschlr
+vST_SPHDL_160x64m8_bL
+R24
+!i10b 1
+!s100 Z7<2agC>V:SG>ild?=ZiG0
+IB0TOE[lLd1ma:Jm5gE8Gl2
+R1
+R2
+R25
+R26
+R27
+L0 15858
+R6
+r1
+!s85 0
+31
+R28
+R29
+R30
+!i113 1
+R10
+R11
+n@s@t_@s@p@h@d@l_160x64m8_b@l
+vST_SPHDL_160x64m8_bL_main
+R24
+!i10b 1
+!s100 <RL<OF1l59W2^E9zP_a;20
+IjZ[HU?o]O3I:GiaD:@h[W1
+R1
+R2
+R25
+R26
+R27
+L0 14251
+R6
+r1
+!s85 0
+31
+R28
+R29
+R30
+!i113 1
+R10
+R11
+n@s@t_@s@p@h@d@l_160x64m8_b@l_main
+vST_SPHDL_160x64m8_bL_OPschlr
+R24
+!i10b 1
+!s100 <ZiT2cmWCdzh83kf]2bU=0
+IzKH[QSd;gi:6MG;VDH_bn0
+R1
+R2
+R25
+R26
+R27
+L0 15641
+R6
+r1
+!s85 0
+31
+R28
+R29
+R30
+!i113 1
+R10
+R11
+n@s@t_@s@p@h@d@l_160x64m8_b@l_@o@pschlr
+vST_SPHDL_160x64m8_L
+R24
+!i10b 1
+!s100 WI1AJfl_m3Uz`Kb8MGMHC3
+Ig<G[GD4I12ELAYl17A_km2
+R1
+R2
+R25
+R26
+R27
+L0 8914
+R6
+r1
+!s85 0
+31
+R28
+R29
+R30
+!i113 1
+R10
+R11
+n@s@t_@s@p@h@d@l_160x64m8_@l
+vST_SPHDL_160x64m8_L_main
+R24
+!i10b 1
+!s100 cF9X]l:_jjEL8FaK>@fW`1
+IeAI5:JaWQ]ZmXUSi`?Y7L2
+R1
+R2
+R25
+R26
+R27
+L0 7337
+R6
+r1
+!s85 0
+31
+R28
+R29
+R30
+!i113 1
+R10
+R11
+n@s@t_@s@p@h@d@l_160x64m8_@l_main
+vST_SPHDL_160x64m8_L_OPschlr
+R24
+!i10b 1
+!s100 ?CVYEgZT?0H5n<[mZnZl;1
+IzMB44Dji7EC=dD7>SALP21
+R1
+R2
+R25
+R26
+R27
+L0 8697
+R6
+r1
+!s85 0
+31
+R28
+R29
+R30
+!i113 1
+R10
+R11
+n@s@t_@s@p@h@d@l_160x64m8_@l_@o@pschlr
+vST_SPHDL_640x32m16_L
+R24
+!i10b 1
+!s100 z_;[Ik[bEB2G0:fh>4KKT0
+Io@JgFP<:c>JU1eM2n7R2K1
+R1
+R2
+R25
+R26
+R27
+L0 12526
+R6
+r1
+!s85 0
+31
+R28
+R29
+R30
+!i113 1
+R10
+R11
+n@s@t_@s@p@h@d@l_640x32m16_@l
+vST_SPHDL_640x32m16_L_main
+R24
+!i10b 1
+!s100 <BM=0<Dg]nK3@7`>lWNg02
+Imm[<B0BPh^gR`bh?>QoFM0
+R1
+R2
+R25
+R26
+R27
+L0 11237
+R6
+r1
+!s85 0
+31
+R28
+R29
+R30
+!i113 1
+R10
+R11
+n@s@t_@s@p@h@d@l_640x32m16_@l_main
+vST_SPHDL_640x32m16_L_OPschlr
+R24
+!i10b 1
+!s100 iVnJ;jJZ7aHhc[<QZ]B6P3
+I]_jDMARWSRRKom7AiLZ>U2
+R1
+R2
+R25
+R26
+R27
+L0 12341
+R6
+r1
+!s85 0
+31
+R28
+R29
+R30
+!i113 1
+R10
+R11
+n@s@t_@s@p@h@d@l_640x32m16_@l_@o@pschlr
+Etb_controller
+Z31 w1707142574
+Z32 DPx4 ieee 16 std_logic_textio 0 22 V5TSK`;aJKC<l]CEg1>mz1
+Z33 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z34 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z35 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R2
+Z36 8/h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_controller.vhd
+Z37 F/h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_controller.vhd
+l0
+L37
+VjJP0@Gf9CA22g>oN[nfh40
+!s100 c`bQSebSOgHzn0Ih1__I20
+Z38 OL;C;10.6_1;65
+32
+Z39 !s110 1709020843
+!i10b 1
+Z40 !s108 1709020843.000000
+Z41 !s90 -reportprogress|300|-work|work|-2002|-explicit|-novopt|-stats=none|/h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_controller.vhd|
+Z42 !s107 /h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_controller.vhd|
+!i113 1
+Z43 o-work work -2002 -explicit
+Z44 tExplicit 1 CreateSource 1 CvgOpt 0
+Abehavioral
+R32
+R33
+R34
+R35
+DEx4 work 13 tb_controller 0 22 jJP0@Gf9CA22g>oN[nfh40
+l76
+L41
+Ve_LFP6^lz9l0fVgZe];>L2
+!s100 iL2oYf?`@P?Tc_^[2;i<91
+R38
+32
+R39
+!i10b 1
+R40
+R41
+R42
+!i113 1
+R43
+R44
+Etb_jollof_top
+Z45 w1707824937
+R32
+R33
+R34
+R35
+R2
+Z46 8/h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_jollof_top.vhd
+Z47 F/h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_jollof_top.vhd
+l0
+L36
+Vfe_N_<J_e^oaPJZe1b?K?2
+!s100 HC^2^4z4MPc5i05KB4Do72
+R38
+32
+R39
+!i10b 1
+R40
+Z48 !s90 -reportprogress|300|-work|work|-2002|-explicit|-novopt|-stats=none|/h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_jollof_top.vhd|
+Z49 !s107 /h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_jollof_top.vhd|
+!i113 1
+R43
+R44
+Abehavioral
+R32
+R33
+R34
+R35
+DEx4 work 13 tb_jollof_top 0 22 fe_N_<J_e^oaPJZe1b?K?2
+l71
+L40
+V;gl;@XgLK[eI6l8O>TiWk1
+!s100 T=DloHezh0V]e<>D0GXWF0
+R38
+32
+R39
+!i10b 1
+R40
+R48
+R49
+!i113 1
+R43
+R44
+Etb_rom
+Z50 w1706530832
+R34
+R35
+R2
+Z51 8/h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_rom.vhd
+Z52 F/h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_rom.vhd
+l0
+L34
+VdjX=E`ZXd3h0XdgP<RS>a1
+!s100 :>h7<3X5U<4`GnM;Fc3@_1
+R38
+32
+R39
+!i10b 1
+R40
+Z53 !s90 -reportprogress|300|-work|work|-2002|-explicit|-novopt|-stats=none|/h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_rom.vhd|
+Z54 !s107 /h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_rom.vhd|
+!i113 1
+R43
+R44
+Abehavioral
+R34
+R35
+DEx4 work 6 tb_rom 0 22 djX=E`ZXd3h0XdgP<RS>a1
+l45
+L38
+VeCk@5;1A]]6BEP6Yka@821
+!s100 L]Qhcbl6WoMC@2FK;eXXf1
+R38
+32
+R39
+!i10b 1
+R40
+R53
+R54
+!i113 1
+R43
+R44
+Etb_sram
+Z55 w1707204796
+R34
+R35
+R2
+Z56 8/h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_sram.vhd
+Z57 F/h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_sram.vhd
+l0
+L34
+VN]L2I@PXmO@K?[G=1ND5U0
+!s100 _=M[OgXB`6H9B_DTm_gIl1
+R38
+32
+R39
+!i10b 1
+R40
+Z58 !s90 -reportprogress|300|-work|work|-2002|-explicit|-novopt|-stats=none|/h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_sram.vhd|
+Z59 !s107 /h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_sram.vhd|
+!i113 1
+R43
+R44
+Abehavioral
+R34
+R35
+DEx4 work 7 tb_sram 0 22 N]L2I@PXmO@K?[G=1ND5U0
+l87
+L38
+VP1K_f:i6FafzX9:lY25BR1
+!s100 gHYkGe?c=OB>d5NX9`Y[Y0
+R38
+32
+R39
+!i10b 1
+R40
+R58
+R59
+!i113 1
+R43
+R44
+Etb_sram_test
+Z60 w1706800428
+R34
+R35
+R2
+Z61 8/h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_sram_test.vhd
+Z62 F/h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_sram_test.vhd
+l0
+L34
+VC4IHV6MQOE??jZn6=^dLm0
+!s100 KjU12X^z9T>1bmROMPUU@0
+R38
+32
+R39
+!i10b 1
+R40
+Z63 !s90 -reportprogress|300|-work|work|-2002|-explicit|-novopt|-stats=none|/h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_sram_test.vhd|
+Z64 !s107 /h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_sram_test.vhd|
+!i113 1
+R43
+R44
+Abehavioral
+R34
+R35
+DEx4 work 12 tb_sram_test 0 22 C4IHV6MQOE??jZn6=^dLm0
+l58
+L38
+VAP0<eQN1=L2To<SNdElc>0
+!s100 ]WkWB_a:aOR2Q8@W_NbMS3
+R38
+32
+R39
+!i10b 1
+R40
+R63
+R64
+!i113 1
+R43
+R44

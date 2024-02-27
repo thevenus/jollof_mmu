@@ -1,0 +1,51 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/h/dc/o/si3116uw-s/icp1matrix/vhdl
+Econtroller
+Z1 w1707215046
+Z2 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z5 8/h/dc/o/si3116uw-s/icp1matrix/vhdl/design/controller.vhd
+Z6 F/h/dc/o/si3116uw-s/icp1matrix/vhdl/design/controller.vhd
+l0
+L34
+VQCL<H8T5h6eo4blMH_jG00
+!s100 Ymze;F`G6Y43eY_C4>A<F1
+Z7 OL;C;10.6_1;65
+32
+Z8 !s110 1707220498
+!i10b 1
+Z9 !s108 1707220498.000000
+Z10 !s90 -reportprogress|300|-work|work|/h/dc/o/si3116uw-s/icp1matrix/vhdl/design/controller.vhd|
+Z11 !s107 /h/dc/o/si3116uw-s/icp1matrix/vhdl/design/controller.vhd|
+!i113 1
+Z12 o-work work
+Z13 tExplicit 1 CreateSource 1 CvgOpt 0
+Abehavioral
+R2
+R3
+R4
+DEx4 work 10 controller 0 22 QCL<H8T5h6eo4blMH_jG00
+l73
+L49
+V@391iocG7@YXLWmW`B@JO2
+!s100 5<Z=UXn76D8f:K:>YiTJT2
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13

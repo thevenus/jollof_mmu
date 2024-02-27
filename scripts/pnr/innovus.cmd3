@@ -1,0 +1,528 @@
+#######################################################
+#                                                     
+#  Innovus Command Logging File                     
+#  Created on Tue Feb 20 09:55:36 2024                
+#                                                     
+#######################################################
+
+#@(#)CDS: Innovus v16.13-s045_1 (64bit) 10/03/2016 04:28 (Linux 2.6.18-194.el5)
+#@(#)CDS: NanoRoute 16.13-s045_1 NR160923-1039/16_13-UB (database version 2.30, 351.6.1) {superthreading v1.30}
+#@(#)CDS: AAE 16.13-s013 (64bit) 10/03/2016 (Linux 2.6.18-194.el5)
+#@(#)CDS: CTE 16.13-s013_1 () Sep 28 2016 05:49:12 ( )
+#@(#)CDS: SYNTECH 16.13-s008_1 () Sep 15 2016 11:59:01 ( )
+#@(#)CDS: CPE v16.13-s039
+#@(#)CDS: IQRC/TQRC 15.2.5-s542 (64bit) Thu Aug 25 18:41:43 PDT 2016 (Linux 2.6.18-194.el5)
+
+set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+suppressMessage ENCEXT-2799
+getDrawView
+loadWorkspace -name Physical
+win
+set ::TimeLib::tsgMarkCellLatchConstructFlag 1
+set defHierChar /
+set distributed_client_message_echo 1
+set distributed_mmmc_disable_reports_auto_redirection 0
+set init_gnd_net GND
+set init_io_file PnR/jollof.io
+set init_lef_file {/usr/local-eit/cad2/cmpstm/stm065v536/EncounterTechnoKit_cmos065_7m4x0y2z_AP@5.3.1/TECH/cmos065_7m4x0y2z_AP_Worst.lef /usr/local-eit/cad2/cmpstm/stm065v536/CORE65LPLVT_5.1/CADENCE/LEF/CORE65LPLVT_soc.lef /usr/local-eit/cad2/cmpstm/stm065v536/CLOCK65LPLVT_3.1/CADENCE/LEF/CLOCK65LPLVT_soc.lef /usr/local-eit/cad2/cmpstm/stm065v536/PRHS65_7.0.a/CADENCE/LEF/PRHS65_soc.lef /usr/local-eit/cad2/cmpstm/stm065v536/IO65LPHVT_SF_1V8_50A_7M4X0Y2Z_7.0/CADENCE/LEF/IO65LPHVT_SF_1V8_50A_7M4X0Y2Z_soc.lef /usr/local-eit/cad2/cmpstm/stm065v536/IO65LP_SF_BASIC_50A_ST_7M4X0Y2Z_7.2/CADENCE/LEF/IO65LP_SF_BASIC_50A_ST_7M4X0Y2Z_soc.lef /usr/local-eit/cad2/cmpstm/oldmems/mem2011/SPHD110420-48158@1.0/CADENCE/LEF/SPHD110420_soc.lef /usr/local-eit/cad2/cmpstm/dicp18/lu_pads_65nm/PADS_Jun2013.lef}
+set init_mmmc_file PnR/jollof.view
+set init_oa_search_lib {}
+set init_pwr_net VDD
+set init_top_cell jollof_top
+set init_verilog outputs/jollof_top.v
+set latch_time_borrow_mode max_borrow
+set pegDefaultResScaleFactor 1
+set pegDetailResScaleFactor 1
+set report_inactive_arcs_format {from to when arc_type sense reason}
+set tso_post_client_restore_command {update_timing ; write_eco_opt_db ;}
+init_design
+pan -10.740 2.335
+selectInst InPad_1
+deselectAll
+selectInst InPad_0
+deselectAll
+selectInst OutPad_7
+deselectAll
+selectInst OutPad_6
+deselectAll
+selectInst OutPad_5
+deselectAll
+selectInst PGND1
+deselectAll
+selectInst OutPad_5
+deselectAll
+selectInst readpad
+deselectAll
+selectInst clkpad
+deselectAll
+selectInst InPad_7
+deselectAll
+selectInst InPad_7
+deselectAll
+selectInst InPad_6
+deselectAll
+selectInst InPad_5
+pan 0.862 0.502
+pan -41.131 -27.422
+pan -10.456 -36.872
+getCTSMode -engine -quiet
+getCTSMode -engine -quiet
+getCTSMode -engine -quiet
+getCTSMode -engine -quiet
+getCTSMode -engine -quiet
+getCTSMode -engine -quiet
+getCTSMode -engine -quiet
+getCTSMode -engine -quiet
+getCTSMode -engine -quiet
+getCTSMode -engine -quiet
+getCTSMode -engine -quiet
+getIoFlowFlag
+setIoFlowFlag 0
+floorPlan -site CORE -r 0.622599151908 0.205482 0.1 0.1 0.0 1.3
+uiSetTool select
+getIoFlowFlag
+fit
+gui_select -rect {200.612 132.224 232.388 143.906}
+panCenter 198.743 148.579
+getIoFlowFlag
+gui_select -rect {305.053 241.805 278.884 210.028}
+pan -54.674 -51.870
+pan -91.842 6.468
+clearGlobalNets
+globalNetConnect VDD -type tiehi -inst *
+globalNetConnect VDD -type pgpin -pin vdd -inst *
+globalNetConnect GND -type tielo -inst *
+globalNetConnect GND -type pgpin -pin gnd -inst *
+clearGlobalNets
+globalNetConnect VDD -type tiehi -inst *
+globalNetConnect VDD -type pgpin -pin vdd -inst *
+globalNetConnect GND -type tielo -inst *
+globalNetConnect GND -type pgpin -pin gnd -inst *
+globalNetConnect GND -type pgpin -pin PGND2 -inst *
+clearGlobalNets
+globalNetConnect VDD -type tiehi -inst *
+globalNetConnect VDD -type pgpin -pin vdd -inst *
+globalNetConnect GNDC -type tielo -inst *
+globalNetConnect GND -type pgpin -pin gnd -inst *
+clearGlobalNets
+globalNetConnect VDD -type tiehi -inst *
+globalNetConnect VDD -type pgpin -pin vdd -inst *
+globalNetConnect GND -type tielo -inst *
+globalNetConnect GND -type pgpin -pin gnd -inst *
+clearGlobalNets
+globalNetConnect VDD -type tiehi -inst *
+globalNetConnect VDD -type pgpin -pin vdd -inst *
+globalNetConnect GND -type tielo -inst *
+globalNetConnect GND -type pgpin -pin gnd -inst *
+clearGlobalNets
+globalNetConnect VDD -type tiehi -inst *
+globalNetConnect VDD -type pgpin -pin vdd -inst *
+globalNetConnect GND -type tielo -inst *
+globalNetConnect GND -type pgpin -pin gnd -inst *
+clearGlobalNets
+globalNetConnect VDD -type tiehi -inst *
+globalNetConnect VDD -type pgpin -pin vdd -inst *
+globalNetConnect GND -type tielo -inst *
+globalNetConnect GND -type pgpin -pin gnd -inst *
+clearGlobalNets
+globalNetConnect VDD -type tiehi -inst *
+globalNetConnect VDD -type pgpin -pin vdd -inst *
+globalNetConnect GND -type tielo -inst *
+globalNetConnect GND -type pgpin -pin gnd -inst *
+clearGlobalNets
+globalNetConnect VDD -type tiehi -inst *
+globalNetConnect VDD -type pgpin -pin vdd -inst *
+globalNetConnect GND -type tielo -inst *
+globalNetConnect GND -type pgpin -pin gnd -inst *
+clearGlobalNets
+globalNetConnect VDD -type tiehi -inst *
+globalNetConnect VDD -type pgpin -pin vdd -inst *
+globalNetConnect GND -type tielo -inst *
+globalNetConnect GND -type pgpin -pin gnd -inst *
+selectInst InPad_1
+deselectAll
+selectInst OutPad_7
+deselectAll
+selectInst OutPad_6
+deselectAll
+selectInst OutPad_5
+deselectAll
+selectInst PGND1
+deselectAll
+selectInst PGND1
+deselectAll
+selectInst OutPad_5
+deselectAll
+selectInst OutPad_7
+gui_select -rect {276.374 358.005 285.429 356.711}
+selectInst InPad_1
+deselectAll
+selectInst InPad_1
+deselectAll
+selectInst OutPad_8
+deselectAll
+selectInst PGND2
+deselectAll
+selectInst OutPad_8
+deselectAll
+selectInst InPad_1
+deselectAll
+selectInst InPad_0
+deselectAll
+selectInst OutPad_7
+deselectAll
+selectInst OutPad_6
+deselectAll
+selectInst OutPad_5
+deselectAll
+selectInst PGND1
+pan 100.477 1.053
+pan -46.732 0.550
+getCTSMode -engine -quiet
+getCTSMode -engine -quiet
+getCTSMode -engine -quiet
+getCTSMode -engine -quiet
+getCTSMode -engine -quiet
+getCTSMode -engine -quiet
+getCTSMode -engine -quiet
+getCTSMode -engine -quiet
+getCTSMode -engine -quiet
+getCTSMode -engine -quiet
+getCTSMode -engine -quiet
+clearGlobalNets
+globalNetConnect VDD -type tiehi -inst *
+globalNetConnect VDD -type pgpin -pin vdd -inst *
+globalNetConnect GND -type tielo -inst *
+globalNetConnect GND -type pgpin -pin gnd -inst *
+globalNetConnect GND -type pgpin -pin PGND2 -inst *
+clearGlobalNets
+globalNetConnect VDD -type tiehi -inst *
+globalNetConnect VDD -type pgpin -pin vdd -inst *
+globalNetConnect GND -type tielo -inst *
+globalNetConnect GND -type pgpin -pin gnd -inst *
+globalNetConnect GND -type pgpin -pin PGNDC -inst *
+clearGlobalNets
+globalNetConnect VDD -type tiehi -inst *
+globalNetConnect VDD -type pgpin -pin vdd -inst *
+globalNetConnect GND -type tielo -inst *
+globalNetConnect GND -type pgpin -pin gnd -inst *
+globalNetConnect GND -type net -net PGND2
+clearGlobalNets
+globalNetConnect VDD -type tiehi -inst *
+globalNetConnect VDD -type pgpin -pin vdd -inst *
+globalNetConnect GND -type tielo -inst *
+globalNetConnect GND -type pgpin -pin gnd -inst *
+globalNetConnect GND -type tielo -pin GND2 -inst *
+clearGlobalNets
+globalNetConnect VDD -type tiehi -inst *
+globalNetConnect VDD -type pgpin -pin vdd -inst *
+globalNetConnect GND -type tielo -inst *
+globalNetConnect GND -type pgpin -pin gnd -inst *
+globalNetConnect GND -type pgpin -pin GNDC -inst *
+clearGlobalNets
+globalNetConnect VDD -type tiehi -inst *
+globalNetConnect VDD -type pgpin -pin vdd -inst *
+globalNetConnect GND -type tielo -inst *
+globalNetConnect GND -type pgpin -pin gnd -inst *
+globalNetConnect GND -type pgpin -pin GNDC -inst *
+clearGlobalNets
+globalNetConnect VDD -type tiehi -inst *
+globalNetConnect VDD -type pgpin -pin vdd -inst *
+globalNetConnect GND -type tielo -inst *
+globalNetConnect GND -type pgpin -pin gnd -inst *
+globalNetConnect GND -type pgpin -pin GNDC -inst *
+globalNetConnect VDD -type pgpin -pin VDDC -inst *
+clearGlobalNets
+globalNetConnect VDD -type tiehi -inst *
+globalNetConnect VDD -type pgpin -pin vdd -inst *
+globalNetConnect GND -type tielo -inst *
+globalNetConnect GND -type pgpin -pin gnd -inst *
+globalNetConnect GND -type pgpin -pin GNDC -inst *
+globalNetConnect VDD -type pgpin -pin VDDC -inst *
+getIoFlowFlag
+setDrawView place
+setDrawView ameba
+setDrawView fplan
+setDrawView ameba
+setDrawView fplan
+setDrawView place
+setDrawView fplan
+pan 493.277 30.438
+pan -513.868 20.591
+deselectAll
+selectInst clkpad
+gui_select -rect {76.362 132.850 180.210 124.793}
+pan 326.763 -42.076
+selectInst InPad_7
+deselectAll
+selectInst clkpad
+deselectAll
+selectInst SRAM_wrapper_inst/DUT_ST_SPHDL_160x32_mem2011
+deselectAll
+selectInst SRAM_wrapper_inst/DUT_ST_SPHDL_160x32_mem2011
+deselectAll
+selectObject Module SRAM_wrapper_inst
+deselectAll
+selectInst SRAM_wrapper_inst/DUT_ST_SPHDL_160x32_mem2011
+uiSetTool moveWire
+deselectAll
+selectInst SRAM_wrapper_inst/DUT_ST_SPHDL_160x32_mem2011
+pan -134.286 -1.791
+pan 205.689 -1.240
+deselectAll
+selectObject Module Controller_inst
+deselectAll
+selectObject Module Controller_inst
+deselectAll
+selectObject Module Controller_inst
+deselectAll
+selectObject Module SRAM_wrapper_inst
+deselectAll
+selectInst SRAM_wrapper_inst/DUT_ST_SPHDL_160x32_mem2011
+redraw
+deselectAll
+selectInst SRAM_wrapper_inst/DUT_ST_SPHDL_160x32_mem2011
+deselectAll
+selectInst SRAM_wrapper_inst/DUT_ST_SPHDL_160x32_mem2011
+deselectAll
+selectInst SRAM_wrapper_inst/DUT_ST_SPHDL_160x32_mem2011
+redraw
+gui_select -append -rect {627.461 25.571 623.744 40.440}
+deselectAll
+selectInst SRAM_wrapper_inst/DUT_ST_SPHDL_160x32_mem2011
+deselectAll
+selectInst SRAM_wrapper_inst/DUT_ST_SPHDL_160x32_mem2011
+setDrawView ameba
+setDrawView place
+setDrawView fplan
+uiSetTool moveWire
+deselectAll
+selectInst SRAM_wrapper_inst/DUT_ST_SPHDL_160x32_mem2011
+deselectAll
+selectInst SRAM_wrapper_inst/DUT_ST_SPHDL_160x32_mem2011
+deselectAll
+selectInst SRAM_wrapper_inst/DUT_ST_SPHDL_160x32_mem2011
+uiSetTool move
+setObjFPlanBox Instance SRAM_wrapper_inst/DUT_ST_SPHDL_160x32_mem2011 78.851 79.302 383.651 120.302
+deselectAll
+selectObject Module SRAM_wrapper_inst
+setObjFPlanBox Module SRAM_wrapper_inst 680.219 113.996 971.445 324.754
+setObjFPlanBox Module SRAM_wrapper_inst 78.021 116.474 369.247 327.232
+setObjFPlanBox Module SRAM_wrapper_inst 76.761 116.161 367.961 326.761
+setObjFPlanBox Module SRAM_wrapper_inst -47.109 -263.0 244.091 -52.4
+deselectAll
+selectObject Module RAM_ctrl_inst
+setObjFPlanBox Module RAM_ctrl_inst 336.219 141.256 446.032 220.727
+deselectAll
+selectObject Module Controller_inst
+setObjFPlanBox Module Controller_inst 696.323 159.843 901.244 308.143
+deselectAll
+selectObject Module SRAM_wrapper_inst
+setObjFPlanBox Module SRAM_wrapper_inst 79.278 119.878 370.478 330.478
+setObjFPlanBox Module RAM_ctrl_inst 336.200 140.800 383.226 221.400
+setObjFPlanBox Module RAM_ctrl_inst 336.200 140.800 540.743 221.400
+deselectAll
+selectObject Module RAM_ctrl_inst
+setObjFPlanBox Module RAM_ctrl_inst 502.849 -111.837 707.449 -31.237
+setObjFPlanBox Module RAM_ctrl_inst 481.542 -107.271 686.142 -26.671
+undo
+undo
+undo
+undo
+deselectAll
+selectObject Module SRAM_wrapper_inst
+setObjFPlanBox Module SRAM_wrapper_inst -345.413 40.1 -54.213 250.7
+ungroup SRAM_wrapper_inst
+setObjFPlanBox Module SRAM_wrapper_inst -453.468 86.518 -162.268 297.118
+selectModule SRAM_wrapper_inst
+setObjFPlanBox Module SRAM_wrapper_inst -365.958 25.641 -74.758 236.241
+deselectAll
+selectInst SRAM_wrapper_inst/DUT_ST_SPHDL_160x32_mem2011
+setObjFPlanBox Instance SRAM_wrapper_inst/DUT_ST_SPHDL_160x32_mem2011 55.261 -129.202 360.061 -88.202
+setObjFPlanBox Instance SRAM_wrapper_inst/DUT_ST_SPHDL_160x32_mem2011 46.889 -124.634 351.689 -83.634
+deselectAll
+selectObject Module RAM_ctrl_inst
+setObjFPlanBox Module RAM_ctrl_inst 361.312 -161.3 471.112 -80.7
+deselectAll
+selectObject Module Controller_inst
+setObjFPlanBox Module Controller_inst 619.466 90.596 824.387 238.896
+deselectAll
+selectObject Module SRAM_wrapper_inst
+setObjFPlanBox Module SRAM_wrapper_inst -374.328 -120.463 -83.128 90.137
+deselectAll
+selectInst SRAM_wrapper_inst/DUT_ST_SPHDL_160x32_mem2011
+setObjFPlanBox Instance SRAM_wrapper_inst/DUT_ST_SPHDL_160x32_mem2011 -35.293 -129.201 269.507 -88.201
+setObjFPlanBox Instance SRAM_wrapper_inst/DUT_ST_SPHDL_160x32_mem2011 -14.749 -117.786 290.051 -76.786
+setObjFPlanBox Instance SRAM_wrapper_inst/DUT_ST_SPHDL_160x32_mem2011 -17.032 -111.698 287.768 -70.698
+setObjFPlanBox Instance SRAM_wrapper_inst/DUT_ST_SPHDL_160x32_mem2011 -13.986 -116.266 290.814 -75.266
+deselectAll
+selectObject Module RAM_ctrl_inst
+setObjFPlanBox Module RAM_ctrl_inst 385.662 -137.711 495.462 -57.111
+pan -189.507 4.373
+pan 46.552 21.486
+deselectAll
+selectInst PcornerLR
+setObjFPlanBox Instance PcornerLR 623.636 -35.934 699.636 40.066
+setObjFPlanBox Instance PcornerLR 191.189 175.953 267.189 251.953
+deselectAll
+selectInst OutPad_3
+setObjFPlanBox Instance OutPad_3 278.165 -32.217 328.165 43.283
+pan 254.252 61.773
+pan -299.864 -55.760
+pan 374.957 -6.320
+pan -58.982 -9.479
+deselectAll
+selectInst SRAM_wrapper_inst/DUT_ST_SPHDL_160x32_mem2011
+setObjFPlanBox Instance SRAM_wrapper_inst/DUT_ST_SPHDL_160x32_mem2011 78.701 77.532 383.501 118.532
+deselectAll
+selectObject Module RAM_ctrl_inst
+setObjFPlanBox Module RAM_ctrl_inst 381.449 -139.818 491.249 -59.218
+setObjFPlanBox Module RAM_ctrl_inst 381.449 -139.818 709.490 -59.218
+setObjFPlanBox Module RAM_ctrl_inst 381.449 -139.818 548.343 -59.218
+setObjFPlanBox Module SRAM_wrapper_inst -374.328 -120.463 -83.128 -62.089
+deselectAll
+selectObject Module SRAM_wrapper_inst
+setObjFPlanBox Module SRAM_wrapper_inst -352.21 -116.25 -61.01 -57.876
+setObjFPlanBox Module SRAM_wrapper_inst -443.842 -82.546 -152.642 -24.172
+deselectAll
+selectObject Module RAM_ctrl_inst
+setObjFPlanBox Module RAM_ctrl_inst 299.296 -140.871 466.19 -60.271
+uiKit::addWidget sgnviewer_1 -type main -closecmd {::sgn::quitApply sgnviewer_1}
+uiKit::addWidget sgnviewer_1.ib -type statusbar -in sgnviewer_1
+uiKit::addWidget sgnviewer_1.msg -type message -variable ::csv::infoMsg(sgnviewer_1) -stretch 1
+deselectAll
+selectObject Module Controller_inst
+setObjFPlanBox Module Controller_inst 604.721 96.916 809.642 245.216
+uiKit::addWidget sgnviewer_2 -type main -closecmd {::sgn::quitApply sgnviewer_2}
+uiKit::addWidget sgnviewer_2.ib -type statusbar -in sgnviewer_2
+uiKit::addWidget sgnviewer_2.msg -type message -variable ::csv::infoMsg(sgnviewer_2) -stretch 1
+uiKit::addWidget sgnviewer_3 -type main -closecmd {::sgn::quitApply sgnviewer_3}
+uiKit::addWidget sgnviewer_3.ib -type statusbar -in sgnviewer_3
+uiKit::addWidget sgnviewer_3.msg -type message -variable ::csv::infoMsg(sgnviewer_3) -stretch 1
+pan -344.309 -40.244
+deselectAll
+selectInst SRAM_wrapper_inst/DUT_ST_SPHDL_160x32_mem2011
+setObjFPlanBox Instance SRAM_wrapper_inst/DUT_ST_SPHDL_160x32_mem2011 105.414 118.873 410.214 159.873
+setObjFPlanBox Instance SRAM_wrapper_inst/DUT_ST_SPHDL_160x32_mem2011 79.612 85.188 384.412 126.188
+setObjFPlanBox Instance SRAM_wrapper_inst/DUT_ST_SPHDL_160x32_mem2011 83.911 82.323 388.711 123.323
+pan -558.829 -35.700
+setObjFPlanBox Module SRAM_wrapper_inst -443.842 -82.546 -242.841 -24.172
+setObjFPlanBox Module SRAM_wrapper_inst -443.842 -82.546 -212.634 -24.172
+deselectAll
+selectObject Module Controller_inst
+setObjFPlanBox Module Controller_inst 610.213 98.289 815.134 246.589
+deselectAll
+selectObject Module RAM_ctrl_inst
+setObjFPlanBox Module RAM_ctrl_inst 314.399 -147.737 481.293 -67.137
+setObjFPlanBox Module RAM_ctrl_inst 314.399 -147.737 410.728 -67.137
+setObjFPlanBox Module RAM_ctrl_inst 267.716 -286.414 364.045 -205.814
+setObjFPlanBox Module RAM_ctrl_inst 267.716 -286.414 291.950 -205.814
+setObjFPlanBox Module RAM_ctrl_inst 267.716 -286.414 282.971 -205.814
+setObjFPlanBox Module RAM_ctrl_inst 267.716 -286.414 510.449 -205.814
+pan -699.088 -108.540
+deselectAll
+selectObject Module Controller_inst
+setObjFPlanBox Module Controller_inst 599.709 93.621 804.63 241.921
+setObjFPlanBox Module Controller_inst 599.709 93.621 804.630 164.169
+setObjFPlanBox Module Controller_inst 599.709 93.621 804.630 160.667
+setObjFPlanBox Module Controller_inst 599.709 93.621 737.740 160.667
+setObjFPlanBox Module Controller_inst 599.709 93.621 698.058 160.667
+setObjFPlanBox Module Controller_inst 599.709 93.621 694.557 160.667
+setObjFPlanBox Module Controller_inst 599.709 93.621 701.887 160.667
+setObjFPlanBox Module Controller_inst 599.709 93.621 698.643 160.667
+setObjFPlanBox Module Controller_inst 599.709 93.621 704.590 160.667
+pan 218.014 10.357
+deselectAll
+selectInst SRAM_wrapper_inst/DUT_ST_SPHDL_160x32_mem2011
+setObjFPlanBox Instance SRAM_wrapper_inst/DUT_ST_SPHDL_160x32_mem2011 78.075 81.158 382.875 122.158
+pan -3.501 120.211
+checkPlace jollof_top.checkPlace
+setDrawView place
+fit
+selectInst SRAM_wrapper_inst/DUT_ST_SPHDL_160x32_mem2011
+setObjFPlanBox Instance SRAM_wrapper_inst/DUT_ST_SPHDL_160x32_mem2011 87.027 90.112 391.827 131.112
+setDrawView fplan
+pan 39.388 307.052
+pan 5.831 -188.041
+pan -50.981 -186.424
+pan -30.436 -16.113
+deselectAll
+selectObject Module RAM_ctrl_inst
+setObjFPlanBox Module RAM_ctrl_inst 213.109 -208.532 455.842 -127.932
+deselectAll
+selectObject Module SRAM_wrapper_inst
+setObjFPlanBox Module SRAM_wrapper_inst -396.396 -87.022 -165.188 -28.648
+setObjFPlanBox Module SRAM_wrapper_inst 87.01 89.332 318.218 147.706
+setObjFPlanBox Module SRAM_wrapper_inst 87.000 88.800 391.890 146.000
+setObjFPlanBox Module SRAM_wrapper_inst 87.000 88.800 391.800 130.578
+deselectAll
+selectInst SRAM_wrapper_inst/DUT_ST_SPHDL_160x32_mem2011
+setObjFPlanBox Instance SRAM_wrapper_inst/DUT_ST_SPHDL_160x32_mem2011 85.781 103.173 390.581 144.173
+deselectAll
+selectObject Module SRAM_wrapper_inst
+setObjFPlanBox Module SRAM_wrapper_inst 77.693 78.762 382.493 120.362
+deselectAll
+selectInst SRAM_wrapper_inst/DUT_ST_SPHDL_160x32_mem2011
+setObjFPlanBox Instance SRAM_wrapper_inst/DUT_ST_SPHDL_160x32_mem2011 78.018 78.597 382.818 119.597
+setObjFPlanBox Instance SRAM_wrapper_inst/DUT_ST_SPHDL_160x32_mem2011 -161.937 104.466 142.863 145.466
+deselectAll
+selectObject Module SRAM_wrapper_inst
+setObjFPlanBox Module SRAM_wrapper_inst -102.207 6.607 202.593 48.207
+deselectAll
+selectInst PcornerLL
+setObjFPlanBox Instance PcornerLL 3.88 -3.234 79.88 72.766
+deselectAll
+selectInst PVDD1
+setObjFPlanBox Instance PVDD1 75.788 0.647 125.788 76.147
+deselectAll
+selectInst PcornerLL
+setObjFPlanBox Instance PcornerLL -3.881 -7.115 72.119 68.885
+undo
+undo
+undo
+undo
+deselectAll
+selectObject Module SRAM_wrapper_inst
+setObjFPlanBox Module SRAM_wrapper_inst -89.917 -69.713 214.883 -28.113
+pan 70.721 87.730
+deselectAll
+selectInst SRAM_wrapper_inst/DUT_ST_SPHDL_160x32_mem2011
+setObjFPlanBox Instance SRAM_wrapper_inst/DUT_ST_SPHDL_160x32_mem2011 77.199 78.445 381.999 119.445
+pan 5.327 -57.070
+deselectAll
+selectObject Module RAM_ctrl_inst
+setObjFPlanBox Module RAM_ctrl_inst 295.289 -164.399 538.022 -83.799
+setObjFPlanBox Module RAM_ctrl_inst 409.426 -164.399 538.022 -83.799
+setObjFPlanBox Module RAM_ctrl_inst 409.426 -164.399 454.321 -83.799
+setObjFPlanBox Module RAM_ctrl_inst 409.426 -134.007 454.321 -83.799
+setObjFPlanBox Module RAM_ctrl_inst 409.426 -134.007 466.495 -83.799
+setObjFPlanBox Module RAM_ctrl_inst 409.426 -134.007 474.105 -83.799
+setObjFPlanBox Module RAM_ctrl_inst 409.426 -134.007 468.017 -83.799
+setObjFPlanBox Module RAM_ctrl_inst 409.426 -134.007 441.365 -83.799
+setObjFPlanBox Module RAM_ctrl_inst 409.426 -134.007 451.123 -83.799
+setObjFPlanBox Module RAM_ctrl_inst 409.426 -134.007 452.343 -83.799
+setObjFPlanBox Module RAM_ctrl_inst 434.537 272.327 477.454 322.535
+deselectAll
+selectObject Module SRAM_wrapper_inst
+setObjFPlanBox Module SRAM_wrapper_inst 69.117 -57.538 373.917 -15.938
+deselectAll
+selectObject Module Controller_inst
+setObjFPlanBox Module Controller_inst 79.235 253.415 184.116 320.461
+deselectAll
+selectObject Module RAM_ctrl_inst
+setObjFPlanBox Module RAM_ctrl_inst 430.034 271.878 473.034 321.278
+setDrawView fplan
+specifySpareGate -cell rom
+pan 32.720 -42.613
+pan 100.892 -64.348
+setObjFPlanBox Module RAM_ctrl_inst 430.0 269.399 473.0 318.799
+deselectAll
+selectObject Module Controller_inst
+setObjFPlanBox Module Controller_inst 126.222 188.408 231.022 256.008
+setObjFPlanBox Module Controller_inst 93.214 244.228 198.014 311.828
+setObjFPlanBox Module Controller_inst 80.005 252.497 184.805 320.097
+setObjFPlanBox Module Controller_inst 91.545 249.301 196.345 316.901
+setObjFPlanBox Module Controller_inst 192.21 188.425 297.01 256.025
+pan -71.866 174.709
+setObjFPlanBox Module Controller_inst 597.023 192.165 701.823 259.765
+setObjFPlanBox Module Controller_inst 93.277 244.67 198.077 312.27
