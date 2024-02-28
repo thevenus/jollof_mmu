@@ -3,7 +3,8 @@
 
 This repository contains the project files for the ETIN35 - IC Project 1 course. We designed a 4x8 matrix multiplier ASIC starting from the algorithmic description and ending with the actual ASIC PnR. The design utilizes only 2 multipliers for area efficiency and is implemented in VHDL 2002. Simulation is done with QuestaSim, synthesis with Genus, and PnR with Innovus.
 
-![A test image](https://github.com/thevenus/jollof_mmu/blob/master/diagrams/Block%20Diagram.jpg)
+![Block Diagram](https://github.com/thevenus/jollof_mmu/blob/master/diagrams/Block%20Diagram.jpg)
+![ASIC](https://github.com/thevenus/jollof_mmu/blob/master/diagrams/asic_pnr.png)
 
 ## Project Structure
 - PnR: Place and Route stage outputs and saved design files from Innovus
