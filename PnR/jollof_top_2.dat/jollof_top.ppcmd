@@ -1,0 +1,122 @@
+# PPCMD 1 
+# sroute -connect { blockPin padPin padRing corePin floatingStripe } -layerChangeRange { M1(1) AP(8) } -blockPinTarget { nearestTarget } -padPinPortConnect { allPort oneGeom } -padPinTarget { nearestTarget } -corePinTarget { firstAfterRowEnd } -floatingStripeTarget { blockring padring ring stripe ringpin blockpin followpin } -allowJogging 1 -crossoverViaLayerRange { M1(1) AP(8) } -nets { GND VDD } -allowLayerChange 1 -blockPin useLef -targetViaLayerRange { M1(1) AP(8) }
+# 5 
+# 16 
+# 0 
+# 0 
+# 0 
+# 0 
+# SELECTED_OBJECTS 
+# selectInst {PGND2}
+# selectInst {OutPad_8}
+# selectInst {InPad_1}
+# selectInst {InPad_0}
+# selectInst {OutPad_7}
+# selectInst {OutPad_6}
+# selectInst {OutPad_5}
+# selectInst {PcornerUL}
+# selectInst {PGND1}
+# END_SELECTED_OBJECTS 
+# BOX_LIST 
+# END_BOX_LIST 
+# NET_INFO_LIST 
+# END_NET_INFO_LIST 
+# END_PPCMD 1 
+
+# PPCMD 2 
+# addStripe -skip_via_on_wire_shape Noshape -block_ring_top_layer_limit M1 -max_same_layer_jog_length 6 -padcore_ring_bottom_layer_limit M1 -set_to_set_distance 100 -skip_via_on_pin Standardcell -stacked_via_top_layer AP -padcore_ring_top_layer_limit M1 -spacing 4 -merge_stripes_value 2.5 -direction horizontal -layer M3 -block_ring_bottom_layer_limit M1 -stop_x 0 -stop_y 0 -width 2 -area {} -nets {GND VDD} -start_x 0 -stacked_via_bottom_layer M1 -start_y 0
+# 4 
+# 2 
+# 1 
+# 0 
+# 0 
+# 1 
+# BOX_LIST 
+# 95500 95500 595500 395500 0 
+# END_BOX_LIST 
+# NET_INFO_LIST 
+# VDD 2000 3 0 101500 395500 100000 0 0 
+# GND 2000 3 0 95500 395500 100000 0 0 
+# END_NET_INFO_LIST 
+# END_PPCMD 2 
+
+# PPCMD 3 
+# addStripe -skip_via_on_wire_shape Noshape -block_ring_top_layer_limit M1 -max_same_layer_jog_length 6 -padcore_ring_bottom_layer_limit M1 -set_to_set_distance 100 -skip_via_on_pin Standardcell -stacked_via_top_layer AP -padcore_ring_top_layer_limit M1 -spacing 4 -merge_stripes_value 2.5 -layer M4 -block_ring_bottom_layer_limit M1 -stop_x 0 -stop_y 0 -width 2 -area {} -nets {GND VDD} -start_x 0 -stacked_via_bottom_layer M1 -start_y 0
+# 3 
+# 2 
+# 1 
+# 0 
+# 0 
+# 1 
+# BOX_LIST 
+# 95500 95500 595500 395500 0 
+# END_BOX_LIST 
+# NET_INFO_LIST 
+# VDD 2000 4 0 101500 595500 100000 0 0 
+# GND 2000 4 0 95500 595500 100000 0 0 
+# END_NET_INFO_LIST 
+# END_PPCMD 3 
+
+# PPCMD 4 
+# addRing -skip_via_on_wire_shape Noshape -skip_via_on_pin Standardcell -stacked_via_top_layer AP -around selected -jog_distance 0.4 -threshold 0.4 -type block_rings -nets {GND VDD} -follow core -stacked_via_bottom_layer M1 -layer {bottom M3 top M3 right M4 left M4} -width 2 -spacing 2 -offset 2 -skip_side {left bottom}
+# 2 
+# 8 
+# 1 
+# 0 
+# 0 
+# 0 
+# SELECTED_OBJECTS 
+# selectInst {SRAM_wrapper_inst/DUT_ST_SPHDL_160x32_mem2011}
+# END_SELECTED_OBJECTS 
+# BOX_LIST 
+# END_BOX_LIST 
+# NET_INFO_LIST 
+# VDD 2000 3 1 0 0 0 0 0 
+# RING_PT_INFO_LIST 
+# 248177 143895 
+# END_RING_PT_INFO_LIST 
+# VDD 2000 4 1 0 0 0 0 0 
+# RING_PT_INFO_LIST 
+# 407855 116197 
+# END_RING_PT_INFO_LIST 
+# GND 2000 3 1 0 0 0 0 0 
+# RING_PT_INFO_LIST 
+# 248177 139895 
+# END_RING_PT_INFO_LIST 
+# GND 2000 4 1 0 0 0 0 0 
+# RING_PT_INFO_LIST 
+# 403855 116197 
+# END_RING_PT_INFO_LIST 
+# END_NET_INFO_LIST 
+# END_PPCMD 4 
+
+# PPCMD 5 
+# addRing -skip_via_on_wire_shape Noshape -skip_via_on_pin Standardcell -stacked_via_top_layer AP -type core_rings -jog_distance 0.4 -threshold 0.4 -nets {GND VDD} -follow core -stacked_via_bottom_layer M1 -layer {bottom M3 top M3 right M4 left M4} -width 2 -spacing 2 -offset 2
+# 1 
+# 32 
+# 1 
+# 0 
+# 0 
+# 0 
+# BOX_LIST 
+# END_BOX_LIST 
+# NET_INFO_LIST 
+# VDD 2000 3 1 0 0 0 0 0 
+# RING_PT_INFO_LIST 
+# 345500 88500 345500 401500 
+# END_RING_PT_INFO_LIST 
+# VDD 2000 4 1 0 0 0 0 0 
+# RING_PT_INFO_LIST 
+# 88500 245000 602500 245000 
+# END_RING_PT_INFO_LIST 
+# GND 2000 3 1 0 0 0 0 0 
+# RING_PT_INFO_LIST 
+# 345500 92500 345500 397500 
+# END_RING_PT_INFO_LIST 
+# GND 2000 4 1 0 0 0 0 0 
+# RING_PT_INFO_LIST 
+# 92500 245000 598500 245000 
+# END_RING_PT_INFO_LIST 
+# END_NET_INFO_LIST 
+# END_PPCMD 5 
+

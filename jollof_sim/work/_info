@@ -9,23 +9,23 @@ z2
 cModel Technology
 d/h/dc/o/si3116uw-s/icp1matrix
 vcontroller
-Z0 !s110 1709020845
+Z0 !s110 1709122847
 !i10b 1
-!s100 jO3>:64?Hh9^OfTbHO[lG2
-IYN^IFfOD]TN`5>zgNG0@a3
+!s100 `Xf_2hYNE=b6AEE>962A30
+I^UheeNLI_E;1UBGgJUS_K2
 Z1 VDg1SIo80bB@j0V0VzS_@n1
 Z2 d/h/dc/o/si3116uw-s/icp1matrix/jollof_sim
-Z3 w1708701559
-Z4 8/h/dc/o/si3116uw-s/icp1matrix/PnR/jollof_top.v
-Z5 F/h/dc/o/si3116uw-s/icp1matrix/PnR/jollof_top.v
-L0 1324
+Z3 w1709121892
+Z4 8/h/dc/o/si3116uw-s/icp1matrix/PnR/jollof_top_2.v
+Z5 F/h/dc/o/si3116uw-s/icp1matrix/PnR/jollof_top_2.v
+L0 1348
 Z6 OL;L;10.6_1;65
 r1
 !s85 0
 31
-Z7 !s108 1709020845.000000
-Z8 !s107 /h/dc/o/si3116uw-s/icp1matrix/PnR/jollof_top.v|
-Z9 !s90 -reportprogress|300|-work|work|-novopt|-stats=none|/h/dc/o/si3116uw-s/icp1matrix/PnR/jollof_top.v|
+Z7 !s108 1709122847.000000
+Z8 !s107 /h/dc/o/si3116uw-s/icp1matrix/PnR/jollof_top_2.v|
+Z9 !s90 -reportprogress|300|-work|work|-novopt|-stats=none|/h/dc/o/si3116uw-s/icp1matrix/PnR/jollof_top_2.v|
 !i113 1
 Z10 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
 Z11 tCvgOpt 0
@@ -76,14 +76,14 @@ n@c@p@a@d_@s_74x50u_@o@u@t
 vcsa_tree_add_326_25_group_768
 R0
 !i10b 1
-!s100 KA0Nc_`P`J9gE_hhZMc9a0
-I>mU[zmFHU9OzC;4Y7PzWI1
+!s100 jAid82TmfQ4oO8J6=ak>l0
+I[>4mKRO1<fFC4c^>ZR0aP1
 R1
 R2
 R3
 R4
 R5
-L0 10
+L0 13
 R6
 r1
 !s85 0
@@ -118,8 +118,8 @@ R11
 vcsa_tree_add_327_25_group_766
 R0
 !i10b 1
-!s100 H>9X8@Pdn`D8BUUZNCYo00
-IhlOl`Q^Y2_i>aNLP>n;i_3
+!s100 @CI<Rfn4DR7ilAG^LG9^71
+I6alddcbYfR1N]EMUUOVTh2
 R1
 R2
 R3
@@ -160,14 +160,14 @@ R11
 vjollof_top
 R0
 !i10b 1
-!s100 REehcG>FP]bz947VO3EGC1
-INA==k<UGi8_Sa^no6QiQD1
+!s100 dca<?@`2n8O2];XS`DNXL2
+IN]=KD<lMRPY20F:Az=RLo3
 R1
 R2
 R3
 R4
 R5
-L0 15065
+L0 15064
 R6
 r1
 !s85 0
@@ -181,14 +181,14 @@ R11
 vram_ctrl
 R0
 !i10b 1
-!s100 NR]l`B]QR2oXO1ISVdFYB0
-I[iYf?I`TY5KMz8U^6O:Db0
+!s100 AeYBi7c>nnR34CVF71lVK2
+ILD68n3e<33P`h<m0]AK6N2
 R1
 R2
 R3
 R4
 R5
-L0 11266
+L0 11256
 R6
 r1
 !s85 0
@@ -202,14 +202,14 @@ R11
 vrom
 R0
 !i10b 1
-!s100 8PD2gd1<VQ=34b_G41KKZ2
-Ic4U[:6;CdJN72YZzVGjFj3
+!s100 _WjP^eV9JBia>1cLHgW[;3
+IbRY:F19fH2Eoz^7;0JnH;2
 R1
 R2
 R3
 R4
 R5
-L0 14826
+L0 14829
 R6
 r1
 !s85 0
@@ -223,14 +223,14 @@ R11
 vsram_wrapper
 R0
 !i10b 1
-!s100 fgZI>Y]JdW6nj@R]HGgzB2
-Ibgj50>UKdW884`o>WVeJj1
+!s100 =7Q_ABOOzWTGP;_NLzl@42
+I<oAg]cL3RaaJUfN5B:Kcz3
 R1
 R2
 R3
 R4
 R5
-L0 14961
+L0 14960
 R6
 r1
 !s85 0
@@ -242,7 +242,7 @@ R9
 R10
 R11
 vST_SPHDL_1216x32m16_bL
-Z24 !s110 1709020844
+Z24 !s110 1709122846
 !i10b 1
 !s100 ?BGgX21YNgb?NFoLUjORn0
 Im4JYzPaSYlIMWX0ONTOe90
@@ -256,7 +256,7 @@ R6
 r1
 !s85 0
 31
-Z28 !s108 1709020844.000000
+Z28 !s108 1709122846.000000
 Z29 !s107 /h/dc/o/si3116uw-s/icp1matrix/vhdl/design/SPHD110420.v|
 Z30 !s90 -reportprogress|300|-work|work|-novopt|-stats=none|/h/dc/o/si3116uw-s/icp1matrix/vhdl/design/SPHD110420.v|
 !i113 1
@@ -586,9 +586,9 @@ VjJP0@Gf9CA22g>oN[nfh40
 !s100 c`bQSebSOgHzn0Ih1__I20
 Z38 OL;C;10.6_1;65
 32
-Z39 !s110 1709020843
+Z39 !s110 1709122845
 !i10b 1
-Z40 !s108 1709020843.000000
+Z40 !s108 1709122845.000000
 Z41 !s90 -reportprogress|300|-work|work|-2002|-explicit|-novopt|-stats=none|/h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_controller.vhd|
 Z42 !s107 /h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_controller.vhd|
 !i113 1
@@ -709,9 +709,9 @@ VN]L2I@PXmO@K?[G=1ND5U0
 !s100 _=M[OgXB`6H9B_DTm_gIl1
 R38
 32
-R39
+R24
 !i10b 1
-R40
+R28
 Z58 !s90 -reportprogress|300|-work|work|-2002|-explicit|-novopt|-stats=none|/h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_sram.vhd|
 Z59 !s107 /h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_sram.vhd|
 !i113 1
@@ -727,9 +727,9 @@ VP1K_f:i6FafzX9:lY25BR1
 !s100 gHYkGe?c=OB>d5NX9`Y[Y0
 R38
 32
-R39
+R24
 !i10b 1
-R40
+R28
 R58
 R59
 !i113 1
@@ -748,9 +748,9 @@ VC4IHV6MQOE??jZn6=^dLm0
 !s100 KjU12X^z9T>1bmROMPUU@0
 R38
 32
-R39
+R24
 !i10b 1
-R40
+R28
 Z63 !s90 -reportprogress|300|-work|work|-2002|-explicit|-novopt|-stats=none|/h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_sram_test.vhd|
 Z64 !s107 /h/dc/o/si3116uw-s/icp1matrix/vhdl/sim/tb_sram_test.vhd|
 !i113 1
@@ -766,9 +766,9 @@ VAP0<eQN1=L2To<SNdElc>0
 !s100 ]WkWB_a:aOR2Q8@W_NbMS3
 R38
 32
-R39
+R24
 !i10b 1
-R40
+R28
 R63
 R64
 !i113 1

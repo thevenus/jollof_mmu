@@ -1,4 +1,21 @@
-/h/dc/o/si3116uw-s/icp1matrix/vhdl/design/rom.vhd {1 {vcom -work work -2002 -explicit -novopt -stats=none /h/dc/o/si3116uw-s/icp1matrix/vhdl/design/rom.vhd
+/h/dc/o/si3116uw-s/icp1matrix/PnR/jollof_top_2.v {2 {vlog -work work -novopt -stats=none /h/dc/o/si3116uw-s/icp1matrix/PnR/jollof_top_2.v
+QuestaSim-64 vlog 10.6_1 Compiler 2017.01 Jan 30 2017
+-- Compiling module csa_tree_add_326_25_group_768
+-- Compiling module csa_tree_add_327_25_group_766
+-- Compiling module controller
+** Warning: /h/dc/o/si3116uw-s/icp1matrix/PnR/jollof_top_2.v(1348): (vlog-13233) Design unit "controller" already exists and will be overwritten. Overwriting a VHDL entity with a Verilog module.
+-- Compiling module ram_ctrl
+** Warning: /h/dc/o/si3116uw-s/icp1matrix/PnR/jollof_top_2.v(11256): (vlog-13233) Design unit "ram_ctrl" already exists and will be overwritten. Overwriting a VHDL entity with a Verilog module.
+-- Compiling module rom
+** Warning: /h/dc/o/si3116uw-s/icp1matrix/PnR/jollof_top_2.v(14829): (vlog-13233) Design unit "rom" already exists and will be overwritten. Overwriting a VHDL entity with a Verilog module.
+-- Compiling module sram_wrapper
+** Warning: /h/dc/o/si3116uw-s/icp1matrix/PnR/jollof_top_2.v(14960): (vlog-13233) Design unit "sram_wrapper" already exists and will be overwritten. Overwriting a VHDL entity with a Verilog module.
+-- Compiling module jollof_top
+
+Top level modules:
+	jollof_top
+
+} {} {}} /h/dc/o/si3116uw-s/icp1matrix/vhdl/design/rom.vhd {1 {vcom -work work -2002 -explicit -novopt -stats=none /h/dc/o/si3116uw-s/icp1matrix/vhdl/design/rom.vhd
 QuestaSim-64 vcom 10.6_1 Compiler 2017.01 Jan 30 2017
 -- Loading package STANDARD
 -- Loading package TEXTIO
